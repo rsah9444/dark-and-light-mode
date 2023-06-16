@@ -1,7 +1,20 @@
 .button{
-    margin :40vh 50vw;
+    margin :30vh 50vw;
     max-height:20vh;
+    position:absolute;
+   
 }
+.left{
+    position: absolute;
+    transform: translate(-80%,-40%);
+}
+
+.right{
+    position: absolute;
+    transform: translate(140%,-140%);
+}
+
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
